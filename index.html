@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idol</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- navigation -->
+    <div class="navigation">
+        <nav>
+            <img src="images/logo.jpg" alt="" class="logo" style="width: 150px; height: 100px; border-radius: 50%;">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#aboutpage">About</a></li>                
+                <li><a href="#activity">Acitivity</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#">Wish</a></li>
+            </ul>
+        </nav>
+        <div class="details">
+             <h1>My hero,My Idol<span> A May Suu</span></h1>
+             <p><i>My own heroes are the dreamers, those men who tried 
+                 <br/> make the world a better place than when they 
+                 <br/> it, whether in small ways or great ones”</i></p>
+        </div>
+        <div class="homeimage">
+            <img src="images/shape.png" alt="" class="shape" >
+            <img src="images/homeimg2.jfif" alt="" class="homeimg" style="width: 300px; height: 300px;border-radius: 50%;">
+        </div>
+    </div>
+
+
+    <!-- About -->
+    <section id="aboutpage">
+        <div class="about">
+            <img src="images/aboutimage.JPG" alt="">
+            <div class="abouttext">
+                <h4>About</h4>
+                <h1>Aung San Suu Kyi: Myanmar democracy icon who fell from grace</h1>
+                <p>She was once seen as a beacon for human rights - a principled activist who gave up her freedom to challenge the ruthless
+                army generals who ruled Myanmar for decades.</p>
+                <div class="aboutbtn">
+                    <button type="button"><a href="https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi" target="blank">Details</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activity -->
+    <section id="activity">
+       <div class="events">
+          <h3>Events</h3>
+          <div class="main-carousel">
+            <div class="cell"><img src="images/event1.jfif" alt=""></div>
+            <div class="cell"><img src="images/event2.jfif" alt=""></div>
+            <div class="cell"><img src="images/event3.jfif" alt=""></div>
+            <div class="cell"><img src="images/event4.jfif" alt=""></div>
+            <div class="cell"><img src="images/event5.jfif" alt=""></div>
+            <div class="cell"><img src="images/event6.jfif" alt=""></div>
+          </div>
+       </div>
+       
+       <div class="awards">
+           <h3>Awards</h3>
+           <div class="main-carousel">
+              <div class="cell"><img src="images/award1.jfif" alt=""></div>
+              <div class="cell"><img src="images/award2.jfif" alt=""></div>
+              <div class="cell"><img src="images/award3.jfif" alt=""></div>
+              <div class="cell"><img src="images/award4.jfif" alt=""></div>
+              <div class="cell"><img src="images/award5.jfif" alt=""></div>
+           </div>
+       </div>
+       <!-- <div class="books">
+           <div class="ui-card">
+               <img src="images/book1.jfif" alt="">
+           </div>
+       </div>  -->
+</section>
+
+<!-- Gallery -->
+<section id="gallery">
+    <input type="radio" name="Photos" id="check1" checked>
+    <input type="radio" name="Photos" id="check2">
+    <input type="radio" name="Photos" id="check3">
+    <input type="radio" name="Photos" id="check4">
+    <div class="container">
+        <h1>PHOTO GALLERY</h1>
+        <div class="top-content">
+           <h3>Photo Gallery</h3>
+           <label for="check1">All Photos</label>
+           <label for="check2">Family Photos</label>
+           <label for="check3">Childs Photos</label>
+           <label for="check4">Visited Places</label>
+        </div>
+
+        <div class="photo-gallery">
+            <div class="pic place">
+                <img src="images/place1.jfif" alt="" >
+            </div>
+            <div class="pic family">
+                <img src="images/family1.jfif" alt="" >
+            </div>
+            <div class="pic child">
+                <img src="images/child1.jfif" alt="" >
+            </div>
+            <div class="pic place">
+                <img src="images/place2.jfif" alt="" >
+            </div>
+            <div class="pic family">
+                <img src="images/family2.jfif" alt="" >
+            </div>
+            <div class="pic child">
+                <img src="images/child4.jfif" alt="" >
+            </div>
+            <div class="pic place">
+                <img src="images/place3.jfif" alt="" >
+            </div>
+            <div class="pic family">
+                <img src="images/family3.jfif" alt="" >
+            </div>
+            <div class="pic child">
+                <img src="images/child3.jfif" alt="" >
+            </div>
+            <div class="pic place">
+                <img src="images/place4.jfif" alt="" style="width: 200px;height: 200px;">
+            </div>
+            <div class="pic family">
+                <img src="images/family4.jfif" alt="" style="width: 200px;height: 200px;">
+            </div>
+            <div class="pic family">
+                <img src="images/family5.jfif" alt="" style="width: 200px;height: 200px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Wish -->
+<section id="wishpage">
+<div class="container1">
+    <div class="content">
+        <div class="image-box">
+           <img src="images/wishimg.jfif" alt=""> 
+        </div>
+        <form action="#">
+            <div class="topic">Send a wish</div>
+            <div class="input-box">
+                <input type="text" required>
+                <label>Enter your name</label>
+            </div>
+            <div class="input-box">
+                <input type="text" required>
+                <label>Enter your email</label>
+            </div>
+            <div class="message-box">
+                <label>Enter your wish</label>
+            </div>
+            <div class="input-box">
+                <input type="submit" value="Send Wish">
+            </div>
+        </form>
+    </div>
+</div>
+ 
+</section>
+<section id="footer">
+    <p><i>"နေဝင်ညကိုကူးဖြတ်ပီးမှ ရောင်နီသာတဲ့ နေ့သစ်ကိုရောက်မယ်"</i></p>
+</section>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+        $('.main-carousel').flickity({
+                // options
+                cellAlign: 'left',
+                wrapAround:true,
+                freeScroll: true
+            });
+    </script>
+</body>
+</html>
